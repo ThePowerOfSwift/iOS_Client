@@ -26,7 +26,7 @@
 		6D2B6E21218E785A00DEB99C /* Requests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
 		6D2B6E23218E935D00DEB99C /* InitializeCaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializeCaptureView.swift; sourceTree = "<group>"; };
 		6D2B6E25218E93EC00DEB99C /* InitializeCaptureView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitializeCaptureView.xib; sourceTree = "<group>"; };
-		6D56B8EB218D5D5C00C205C5 /* VandyHacks Organizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VandyHacks Organizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D56B8EB218D5D5C00C205C5 /* VandyHacks Client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VandyHacks Client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D56B8EE218D5D5C00C205C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D56B8F5218D5D5D00C205C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D56B8F8218D5D5D00C205C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,7 +54,7 @@
 		6D56B8E2218D5D5C00C205C5 = {
 			isa = PBXGroup;
 			children = (
-				6D56B8ED218D5D5C00C205C5 /* VandyHacks Organizer */,
+				6D56B8ED218D5D5C00C205C5 /* VandyHacks Client */,
 				6D56B8EC218D5D5C00C205C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,12 +62,12 @@
 		6D56B8EC218D5D5C00C205C5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D56B8EB218D5D5C00C205C5 /* VandyHacks Organizer.app */,
+				6D56B8EB218D5D5C00C205C5 /* VandyHacks Client.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D56B8ED218D5D5C00C205C5 /* VandyHacks Organizer */ = {
+		6D56B8ED218D5D5C00C205C5 /* VandyHacks Client */ = {
 			isa = PBXGroup;
 			children = (
 				6D56B8EE218D5D5C00C205C5 /* AppDelegate.swift */,
@@ -85,15 +85,15 @@
 				6D56B8F7218D5D5D00C205C5 /* LaunchScreen.storyboard */,
 				6D56B8FA218D5D5D00C205C5 /* Info.plist */,
 			);
-			path = "VandyHacks Organizer";
+			path = "VandyHacks Client";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D56B8EA218D5D5C00C205C5 /* VandyHacks Organizer */ = {
+		6D56B8EA218D5D5C00C205C5 /* VandyHacks Client */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D56B8FD218D5D5D00C205C5 /* Build configuration list for PBXNativeTarget "VandyHacks Organizer" */;
+			buildConfigurationList = 6D56B8FD218D5D5D00C205C5 /* Build configuration list for PBXNativeTarget "VandyHacks Client" */;
 			buildPhases = (
 				6D56B8E7218D5D5C00C205C5 /* Sources */,
 				6D56B8E8218D5D5C00C205C5 /* Frameworks */,
@@ -103,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = "VandyHacks Organizer";
+			name = "VandyHacks Client";
 			productName = "VandyHacks Organizer";
-			productReference = 6D56B8EB218D5D5C00C205C5 /* VandyHacks Organizer.app */;
+			productReference = 6D56B8EB218D5D5C00C205C5 /* VandyHacks Client.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +123,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6D56B8E6218D5D5C00C205C5 /* Build configuration list for PBXProject "VandyHacks Organizer" */;
+			buildConfigurationList = 6D56B8E6218D5D5C00C205C5 /* Build configuration list for PBXProject "VandyHacks Client" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,7 +136,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D56B8EA218D5D5C00C205C5 /* VandyHacks Organizer */,
+				6D56B8EA218D5D5C00C205C5 /* VandyHacks Client */,
 			);
 		};
 /* End PBXProject section */
@@ -314,7 +314,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyslam.VandyHacks-Organizer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyslam.VandyHacks-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,7 +333,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyslam.VandyHacks-Organizer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vandyslam.VandyHacks-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D56B8E6218D5D5C00C205C5 /* Build configuration list for PBXProject "VandyHacks Organizer" */ = {
+		6D56B8E6218D5D5C00C205C5 /* Build configuration list for PBXProject "VandyHacks Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D56B8FB218D5D5D00C205C5 /* Debug */,
@@ -352,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D56B8FD218D5D5D00C205C5 /* Build configuration list for PBXNativeTarget "VandyHacks Organizer" */ = {
+		6D56B8FD218D5D5D00C205C5 /* Build configuration list for PBXNativeTarget "VandyHacks Client" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D56B8FE218D5D5D00C205C5 /* Debug */,
